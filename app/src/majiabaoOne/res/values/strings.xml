@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">第一个马甲包</string>
+    <string name="string_desc">我是一个马甲包！</string>
+</resources>
