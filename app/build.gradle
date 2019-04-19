@@ -26,6 +26,45 @@ android {
         manifestPlaceholders = [APP_NAME: '主包名称'] // 配置主包的应用名称
     }
 
+//    productFlavors {
+//        majia_xinshou_vivo{//新手版)
+//            applicationId "com.raythins.herri.xinshou"//(如：新手版)
+//            manifestPlaceholders = [
+//                    JPUSH_PKGNAME    : "com.raythins.herri.xinshou",//极光包名
+//                    JPUSH_APPKEY  :  "sdfewds234324343243243243sdfdsd",//极光appkey
+//                    JPUSH_CHANNEL    : "developer-default", //暂时填写默认值即可.
+//                    BAIDU_APPKEY  :  "SDFDSFDFDSFRT72LSDFDSFDFDS",//
+//                    TENCENT_ID  :  "1323123134341" , //腾讯id（应用宝）
+//                    TENCENT_APPKEY  :  "SDFDSFDS9089SDF" , //腾讯APPKEY
+//                    LAUNCHER_ICON  :  "@drawable/ic_launcher_xinshou" ,  //logo图片路径
+//                    APP_NAME :  "Demo新手版" ,  //app名称
+//                    WCHAT_APPID : "wxsdf4eds323r32432432432",// 微信appid
+//                    WCHAT_TEMPLETE_ID : "sdfdsfsdfsdf233243243243243243243243243",//微信SDK  订阅id
+//                    WCHAT_SECRET : "dfdfdsffdsfdsfdsfdsfds3432432432432432432432",//微信SDK secret
+//            ]
+//            signingConfig signingConfigs.xinshou//签名信息
+//        }
+//        majia_shop_vivo{//商城版)
+//            applicationId "com.raythins.herri.shop"//(如：商城版)
+//            manifestPlaceholders = [
+//                    JPUSH_PKGNAME    : "com.raythins.herri.xinshou",//极光包名
+//                    JPUSH_APPKEY  :  "sdfewds234324343243243243sdfdsd",//极光appkey
+//                    JPUSH_CHANNEL    : "developer-default", //暂时填写默认值即可.
+//                    BAIDU_APPKEY  :  "SDFDSFDFDSFRT72LSDFDSFDFDS",//
+//                    TENCENT_ID  :  "1323123134341" , //腾讯id（应用宝）
+//                    TENCENT_APPKEY  :  "SDFDSFDS9089SDF" , //腾讯APPKEY
+//                    LAUNCHER_ICON  :  "@drawable/ic_launcher_shop" ,  //logo图片路径
+//                    APP_NAME :  "Demo商城版",  //app名称
+//                    WCHAT_APPID : "wxsdf4eds323r32432432432",// 微信appid
+//                    WCHAT_TEMPLETE_ID : "sdfdsfsdfsdf233243243243243243243243243",//微信SDK  订阅id
+//                    WCHAT_SECRET : "dfdfdsffdsfdsfdsfdsfds3432432432432432432432",//微信SDK secret
+//            ]
+//            signingConfig signingConfigs.shop//签名信息
+//        }
+//
+//    }
+
+
 
     buildTypes {
         release {
